@@ -11,6 +11,7 @@ import com.bacchus.networkloglib.R;
 public class MockActivity extends AppCompatActivity {
 
     private Toolbar mToolbar;
+    private String mStr = "asd";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,5 +33,13 @@ public class MockActivity extends AppCompatActivity {
         //设置toolbar
         setSupportActionBar(mToolbar);
         mToolbar.setNavigationIcon(R.drawable.back);
+    }
+
+    public void setStr(String str){
+        mStr = str;
+    }
+
+    public void addStrListener(Runnable){
+
     }
 }
