@@ -39,7 +39,4 @@ public class MockActivity extends AppCompatActivity {
         mStr = str;
     }
 
-    public void addStrListener(Runnable){
-
-    }
 }
